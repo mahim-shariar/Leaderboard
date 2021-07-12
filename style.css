@@ -108,3 +108,73 @@ width: 870px;
 padding: 30px 30px 30px 30px;
 border-radius: 5px;
 }
+/* courses style */
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+
+}
+.course{
+    width:226px;
+    padding: 10px 10px 10px 10px;
+    border: rgb(231, 241, 241) 1px solid;
+    box-shadow: gainsboro 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+
+.course .course-pic img{
+    width: 224px; 
+    height: 104px;
+
+}
+.course-info-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-info-1 span{
+    color: gray;
+}
+.fa-star{
+    font-size: 13px;
+}
+.fa-star.filled{
+    color: gold;
+}
+.fa-star.emty{
+    color: rgb(199, 185, 185);
+}
+
+.course-time{
+    background-color: rgb(241, 194, 194);
+    color:rgb(240, 84, 84) ;
+    border-radius: 50px;
+    
+}
+.course-time p{
+    margin: 0;
+    padding: 2px 10px;
+}
+
+
+/*midia qoaris */
+
+/* mobile device */
+
+@media (max-width:688px) {
+    .onwer{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        padding-left: 150px;
+        background-color: peru;
+    
+    }
+    .top-titale{
+        padding-left: 150px;
+        
+    
+    }
+    
+}
