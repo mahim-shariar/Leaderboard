@@ -2,8 +2,51 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color:  #E5E5E5;
+    margin: 0;
 
 }
+/* nav start */
+/* .nav-container{
+    
+    background-color:#562EFF;
+    height: 85px;
+}
+
+
+.nav-titale {
+    display: flex;
+    
+    
+}
+.nav-titale h3{
+    color: white;
+    font-weight: 400;
+}
+.fa-lightbulb {
+    font-size: 44px;
+    color: white;
+    po
+    
+}
+.idea{
+    font-size: 30px;
+    color: white;
+    font-weight: 500
+}
+
+.logo {
+    font-size: ;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+    
+} */
+
+
 /* top-man */
 .top-man{
     background-color: white;
@@ -17,6 +60,7 @@ body{
 .top-block{
     display: flex;
     justify-content: center;
+  
     
 }
 
@@ -31,11 +75,11 @@ body{
 .onwer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    
 }
 .man{
     display: flex;
     align-items: center;
-    
     
 
 }
